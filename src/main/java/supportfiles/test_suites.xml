@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="testsuites">
-	 <!-- parallel="tests" thread-count="4" configfailurepolicy="continue">  
+	<!--   parallel="tests" thread-count="1" configfailurepolicy="continue"> -->
 	 <listeners> 
 	<listener class-name="rvinfotech.listener.TestngListen"/>
-		</listeners> -->
+		</listeners> 
 
 	<test name="VerifyLoginCases">
 		<classes>
@@ -12,10 +12,10 @@
 		</classes>
 	</test>
  
-	<test name="VerifyForgetPasswordPage">
+<!-- 	<test name="VerifyForgetPasswordPage">
 		<classes>
 			<class name="rvinfotech.testsuites.VerifyForgetPasswordPage" />
 		</classes>
-	</test>
+	</test> -->
 
 </suite>
